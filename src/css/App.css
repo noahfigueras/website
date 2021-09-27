@@ -1,0 +1,39 @@
+/*All Document styles*/
+*{
+ margin: 0 auto;
+}
+
+html {
+ height: 100%;
+}
+
+body {
+ height: 100%;
+}
+
+.container {
+ height: 100%;
+}
+
+/*Side Navbar div*/
+.navbar {
+ overflow: auto;
+ width: 17%;
+ height: 100%;
+ background: #0d010f;
+ position: fixed;
+ padding: 20px 20px;
+ color: grey;
+}
+
+/*Content Box div*/
+.content {
+ width: 80%;
+ margin-right: 0;
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 1150px) {
+ .content {width: 100%}
+ .navbar {display: none; visibility: hidden}
+}
