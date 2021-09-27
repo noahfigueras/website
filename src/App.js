@@ -7,7 +7,7 @@ import SideNav from './components/nav/sideNav';
 
 import Home from "./components/home";
 import Projects from "./components/projects";
-import Contact from "./components/contact";
+//import Contact from "./components/contact";
 import Skills from "./components/skills";
 import Blog from "./components/blog";
 import Post from "./components/post";
@@ -36,7 +36,7 @@ class App extends Component {
 	    <SideNav status={this.state.sideNavOpen} click={this.toggleSideNav}/>
          <div className="content">
 	      <Switch>
-		<Route path="/" component={Home} exact/>
+		<Route exact path="/website" component={Home}/>
 		<Route path="/projects" component={Projects}/>
         {/*		<Route path="/contact" component={Contact}/>*/}
 	        <Route path="/skills" component={Skills}/>
