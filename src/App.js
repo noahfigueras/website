@@ -36,13 +36,12 @@ class App extends Component {
 	    <SideNav status={this.state.sideNavOpen} click={this.toggleSideNav}/>
          <div className="content">
 	      <Switch>
-		<Route exact path="/website" component={Home}/>
-		<Route path="/projects" component={Projects}/>
-        {/*		<Route path="/contact" component={Contact}/>*/}
-	        <Route path="/skills" component={Skills}/>
-	        <Route path="/blog" exact component={Blog}/>
-	    	<Route path="/blog/:post" exact component={Post}/>
-		<Route  component={Error}/>
+            <Route path="/website" component={Home}/>
+            <Route path="/projects" component={Projects}/>
+            <Route path="/skills" component={Skills}/>
+            <Route path="/blog" exact component={Blog}/>
+            <Route path="/blog/:post" exact component={Post}/>
+            <Route  component={Error}/>
 	      </Switch>
          </div>
         </div>
