@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from "react-router-dom";
 
 import "../css/components.css";
 
@@ -9,8 +10,8 @@ const Home = () => {
 	  <h1>Hi, this is Noah</h1>
 	  <h2>Full-Stack Blockchain Developer</h2>
 	  <div className="home-buttons">
-           <a href="/skills" className="bSpace btn1">Skills & Offer</a>
-           <a href="/projects" className="bSpace btn2">Portfolio</a>
+          <NavLink to="/skills" className="bSpace btn1">Skills & Offer</NavLink>
+          <NavLink to="/projects" className="bSpace btn2">Portfolio</NavLink>
 	  </div>
 	 </div>
 	</div>

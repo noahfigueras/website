@@ -67,7 +67,7 @@ class Projects  extends Component {
   	  			<button onClick={this.handleChange}
 					value="all">ALL</button>	  
   	  			<button onClick={this.handleChange}
-					value="html">HTML</button>
+					value="html"></button>
 
   	  			<button onClick={this.handleChange}
 					value="css">CSS</button>	  
