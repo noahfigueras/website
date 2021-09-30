@@ -15,7 +15,7 @@ class Navbar extends Component {
 	 return(
 	 <div className="navContainer"> 	 
 	   <NavLink className="link" to="/website">
-	    <img src={profileImg} className="profileImg"/>
+	    <img alt="profileImg" src={profileImg} className="profileImg"/>
             <div className="title">		 
               <h2>Noah Figueras</h2>
 	      <h5>Blockchain Developer</h5>
@@ -25,14 +25,13 @@ class Navbar extends Component {
 	   <ul>
 		 <NavLink className="nav-btn link" to="/skills"><li>Skills & Offer</li></NavLink>
 		 <NavLink className="nav-btn link" to="/projects"><li>Projects</li></NavLink>
-		 <NavLink className="nav-btn link" to="/blog"><li>Blog</li></NavLink>
 		 <a className="nav-btn link" target="_blank" rel="noopener noreferrer" href={resume}><li>CV</li></a>
 	   </ul>
 	   <div className="footer">
-		 <a href="mailto:noahfigueras@gmail.com"><img className="icons" src={gmail}/></a>
-		 <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/9SIGKILL"><img className="icons" src={twitter}/></a>
-		 <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/noahfigueras/"><img className="icons" src={linkedin}/></a>
-		 <a target="_blank" rel="noopener noreferrer" href="https://github.com/noahfigueras"><img className="icons" src={github}/></a>
+		 <a href="mailto:noahfigueras@gmail.com"><img alt="gmail" className="icons" src={gmail}/></a>
+		 <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/9SIGKILL"><img alt="twitter" className="icons" src={twitter}/></a>
+		 <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/noahfigueras/"><img alt='linkedin' className="icons" src={linkedin}/></a>
+		 <a target="_blank" rel="noopener noreferrer" href="https://github.com/noahfigueras"><img alt='github' className="icons" src={github}/></a>
            </div>			 
 
 	 </div>

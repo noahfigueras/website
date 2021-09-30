@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 
 import resume from '../../documents/Resume.pdf';
 import github from "../../img/icons/github.png";
@@ -14,31 +15,29 @@ const sideNav = (props) => {
 		<div className='sideNav'>
 			<button onClick={props.click}>X</button>
 			<ul>
-				<li><a href='/'>Home</a></li>
-				<li><a href='/skills'>Skills</a></li>
-				<li><a href='/projects'>Portfolio</a></li>
-				<li><a href='/blog'>Blog</a></li>
-				<li><a href='/contact'>Contact</a></li>
+				<li onClick={props.click}><NavLink to='/website'>Home</NavLink></li>
+				<li onClick={props.click}><NavLink to='/skills'>Skills</NavLink></li>
+				<li onClick={props.click}><NavLink to='/projects'>Portfolio</NavLink></li>
 				<li><a target="_blank" rel="noopener noreferrer" href={resume}>CV</a></li>
 			</ul>
 			<div className="responsive-footer">
 				<a href="mailto:noahfigueras@gmail.com">
-					<img className="icons" src={gmail}/>
+					<img alt='gmail' className="icons" src={gmail}/>
 				</a>
 		 		<a target="_blank" 
 				   rel="noopener noreferrer" 
 				   href="https://twitter.com/Noahfigueras17">
-					<img className="icons" src={twitter}/>
+					<img alt='twitter' className="icons" src={twitter}/>
 				</a>
 		 		<a target="_blank" 
 				   rel="noopener noreferrer" 
 				   href="https://www.linkedin.com/in/noahfigueras/">
-					<img className="icons" src={linkedin}/>
+					<img alt='linkedin' className="icons" src={linkedin}/>
 				</a>
 		 		<a target="_blank" 
 				   rel="noopener noreferrer" 
 				   href="https://github.com/noahfigueras">
-					<img className="icons" src={github}/>
+					<img alt='github' className="icons" src={github}/>
 				</a>
 			</div>
 		</div>
