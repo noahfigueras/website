@@ -10,15 +10,38 @@ import nodejs from "../img/icons/nodejs.png";
 import SQL from "../img/icons/sql.png";
 import AWS from "../img/icons/aws.png";
 import git from "../img/icons/git.png";
+import eth from "../img/icons/eth.png";
+import hardhat from "../img/icons/hardhat.png";
+import rust from "../img/icons/rust.png";
+import solidity from "../img/icons/solidity-eth.png";
 
 const Projects = () => {
 	return(
 	 <div className="skillsContainer">
 	  <h1 className="skills-title">Skills & Offer</h1>
 	  <p className="aboutme">
-	    I am a self taught full-stack web developer with over two		   years of experience. <br/><br/>
-	    My main area of expertise is front-end development and back-end development specialized in <span>MERN stack</span>. I can maintain develop and launch Web Aplications from scratch. 
+	    I am a self taught Full-Stack Blockchain developer with over two		   years of experience. <br/><br/>
+        My main area of expertise is in the <span>Ethereum blockchain</span>. As a Full-Stack developer, I can develop all kind of smart contracts, interact with the Blockchain, build front-end applications and deploy <span>Dapps</span> from scratch. 
 	  </p>
+	  <h2 className="secondTitle">Blockchain Development</h2>
+	    <p className="aboutme">
+            I am recently using <span>Hardhat</span> as a framework to develop smart contracts with <span>solidity</span>. I Have a bast experience building smart contracts and interacting with other existing projects as: Uniswapv3, Chainlink, Avee, UMA and Compound. 
+            Also, I'm currently learning <span>Rust</span> in order to build in other Blockchains as Solana, Casper and Polkadot.
+		<br/><br/>
+		Current experience in Blockchain: <br/><br/>
+		<ul className="experience">
+			<li>Experience building complex smart contracts with solidity.</li>
+            <li>Use javascript to interact with the blockchain from the client side with <span>ethers</span> and <span>web3</span>.</li>
+			<li>Unit testing experience with mainnet and different testnets.</li>
+			<li>Deployment of smart contracts to mainnet.</li>
+		</ul>
+	    </p>
+	    <ul className="devlogos">
+		<li><img alt='' className="devlogo" src={eth}/></li>
+		<li><img alt='' className="devlogo" src={hardhat}/></li>
+		<li><img alt='' className="devlogo" src={rust}/></li>
+		<li><img alt='' className="devlogo" src={solidity}/></li>
+	    </ul>
 	  <h2 className="secondTitle">Front-End Development</h2>
 	    <p className="aboutme">
 		I am recently using <span>React</span> to develop client applications, but I understand this kind of 
@@ -33,10 +56,10 @@ const Projects = () => {
 		</ul>
 	    </p>
 	    <ul className="devlogos">
-		<li><img className="devlogo" src={html}/></li>
-		<li><img className="devlogo" src={css}/></li>
-		<li><img className="devlogo" src={js}/></li>
-		<li><img className="devlogo" src={react}/></li>
+		<li><img alt='' className="devlogo" src={html}/></li>
+		<li><img alt='' className="devlogo" src={css}/></li>
+		<li><img alt='' className="devlogo" src={js}/></li>
+		<li><img alt='' className="devlogo" src={react}/></li>
 	    </ul>
 	  <h2 className="secondTitle">Back-End Development</h2>
 	    <p className="aboutme">
@@ -47,12 +70,12 @@ const Projects = () => {
 		I am familiar with the <span>REST</span> api, and I use it to develop my projects. In term of databases, I am more experienced with non-relational db as <span>MongoDB</span> because they work best for little projects but I am expanding my knowledge in relational db as <span>SQL</span>. 
 	    </p>
 	    <ul className="devlogos">
-		<li><img className="devlogo" src={nodejs}/></li>
-		<li><img className="devlogo" src={mongodb}/></li>
-		<li><img className="devlogo" src={REST}/></li>
-		<li><img className="devlogo" src={SQL}/></li>
-		<li><img className="devlogo" src={AWS}/></li>
-		<li><img className="devlogo" src={git}/></li>
+		<li><img alt='' className="devlogo" src={nodejs}/></li>
+		<li><img alt='' className="devlogo" src={mongodb}/></li>
+		<li><img alt='' className="devlogo" src={REST}/></li>
+		<li><img alt='' className="devlogo" src={SQL}/></li>
+		<li><img alt='' className="devlogo" src={AWS}/></li>
+		<li><img alt='' className="devlogo" src={git}/></li>
 	    </ul>
 	 </div>
 	);
