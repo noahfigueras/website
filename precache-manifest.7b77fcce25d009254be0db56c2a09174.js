@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/website/static/media/solidity-eth.457dc983.png"
   },
   {
-    "revision": "a07af2b519b8fafc4984c21d2faf283d",
+    "revision": "12cb3f08c2df7f6506be4ed7bd5b5f03",
     "url": "/website/index.html"
   }
 ];
