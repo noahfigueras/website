@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "22599826d3278ef09325",
-    "url": "/website/static/css/main.a8947790.chunk.css"
+    "revision": "4eec8d056de1d64238b2",
+    "url": "/website/static/css/main.eb797c7f.chunk.css"
   },
   {
-    "revision": "22599826d3278ef09325",
-    "url": "/website/static/js/main.22599826.chunk.js"
+    "revision": "4eec8d056de1d64238b2",
+    "url": "/website/static/js/main.4eec8d05.chunk.js"
   },
   {
-    "revision": "1e54395290589132f860",
-    "url": "/website/static/js/1.1e543952.chunk.js"
+    "revision": "0f82e7f9ec4f58955f73",
+    "url": "/website/static/js/1.0f82e7f9.chunk.js"
   },
   {
     "revision": "df8eefd1f2dbc5f3d248",
@@ -34,6 +34,10 @@ self.__precacheManifest = [
   {
     "revision": "39ea5d3a2e047428fc8bec5b1c0609c9",
     "url": "/website/static/media/noah-foto.39ea5d3a.png"
+  },
+  {
+    "revision": "b90ea794fb6fe078c0d84d12fd331ea3",
+    "url": "/website/static/media/multiSender.b90ea794.png"
   },
   {
     "revision": "1e3f4e0b519f5057795f186bd4224fb8",
@@ -84,7 +88,7 @@ self.__precacheManifest = [
     "url": "/website/static/media/solidity-eth.457dc983.png"
   },
   {
-    "revision": "12cb3f08c2df7f6506be4ed7bd5b5f03",
+    "revision": "8696b0e5e900250501788b9cdc633505",
     "url": "/website/index.html"
   }
 ];
