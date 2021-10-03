@@ -1,5 +1,7 @@
 import React, {Component} from "react";
 import axios from 'axios';
+import data from '../db/projectsData';
+import image from '../img/multiSender.png';
 
 class Projects  extends Component {
 	constructor(){
@@ -37,11 +39,11 @@ class Projects  extends Component {
 	
 	//Check if there are projects
 	let content; 
-	if(filterProjects.length <= 0){
+	if(data.length <= 0){
 		content = <h3 style={{marginTop: '100px'}}>Sorry, not enough projects in this category, more projects coming soon...</h3>
 	} else {
 		content = 
-		filterProjects.map(project =>
+		data.map(project =>
 			<div key={project._id} className="project">
 				<a 
 					href={project.link}
@@ -49,7 +51,7 @@ class Projects  extends Component {
 					rel="noopener noreferrer">
 					<img 
 						className="imgProject"
-						src={'/img/' + project.img}
+						src={image}
 						alt={project.title}
 					/>
 					<h4>{project.title}</h4>
