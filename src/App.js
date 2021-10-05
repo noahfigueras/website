@@ -6,7 +6,7 @@ import Hamburger from './components/nav/toggleNav';
 import SideNav from './components/nav/sideNav';
 
 import Home from "./components/home";
-import Projects from "./components/projects";
+import Projects from "./components/project2";
 //import Contact from "./components/contact";
 import Skills from "./components/skills";
 import Blog from "./components/blog";
