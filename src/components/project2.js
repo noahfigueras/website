@@ -1,4 +1,4 @@
-import React, { Component }  from 'react';
+import React from 'react';
 import data from '../db/projectsData';
 import image from '../img/multiSender.png';
 
